@@ -1,0 +1,43 @@
+# Node modules
+node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*  # for different environments
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage directory
+coverage
+
+# Build artifacts
+dist
+build
+
+# Caches
+.cache
+.tmp
+*.log
+
+# Editor/project files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
