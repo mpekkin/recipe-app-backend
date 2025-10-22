@@ -22,10 +22,10 @@ services:
       - "5434:5432"
     volumes:
       - ./recipe-db-data:/var/lib/postgresql/data
-      - ./init-db:/docker-entrypoint-initdb.d
+      - ./src/config/init-db:/docker-entrypoint-initdb.d
 secrets:
    db_password:
-     file: db_password.txt
+     file: ./src/config/db_password.txt
 
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
